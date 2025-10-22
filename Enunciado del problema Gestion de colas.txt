@@ -14,4 +14,4 @@ Pilas, con el fin de conservar un registro de las atenciones recientes y habilit
 
 Asimismo, se incorporarán algoritmos de clasificación (como Burbuja, Inserción o Selección) para organizar los datos según diferentes parámetros, tales como prioridad, tiempo de espera o nombre del cliente.
 
-Este sistema tiene como objetivo mostrar de manera práctica cómo las estructuras de datos son aplicables a problemas reales, optimizando la gestión de información y fortaleciendo el aprendizaje teórico obtenido en la materia
+Este sistema tiene como objetivo mostrar de manera práctica cómo las estructuras de datos son aplicables a problemas reales.
