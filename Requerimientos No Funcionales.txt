@@ -1,0 +1,15 @@
+Requerimientos No Funcionales
+
+-El sistema debe poseer una interfaz clara.
+
+-El sistema debe garantizar eficiencia en la gestión de datos, utilizando estructuras dinámicas que optimicen memoria y tiempo.
+
+-El sistema debe responder de manera rápida a las operaciones básicas (registro, atención, búsqueda), sin retrasos perceptibles para el usuario.
+
+-El sistema debe garantizar la integridad de los datos, evitando pérdidas de información durante la atención o modificación de clientes.
+
+-El sistema debe ser fácil de mantener y actualizar, permitiendo la adición de nuevas funciones o estructuras sin afectar el funcionamiento principal.
+
+-El sistema debe mostrar mensajes claros y descriptivos ante errores o acciones inválidas.
+
+-El sistema debe estar diseñado con posibilidad de escalabilidad, para incorporar a futuro estructuras más avanzadas como árboles binarios o montículos de prioridad.
