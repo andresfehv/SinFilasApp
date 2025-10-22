@@ -1,0 +1,24 @@
+Requerimientos Funcionales
+
+- El sistema debe permitir registrar nuevos clientes con información básica como nombre, número de documento, prioridad y hora de llegada.
+
+- El sistema debe insertar automáticamente a los clientes en la cola de espera, aplicando el principio FIFO (First In – First Out).
+
+-El sistema debe mostrar en tiempo real la cola actual con el orden de llegada de los clientes.
+
+-El sistema debe atender al siguiente cliente de la cola y transferirlo a la lista de clientes atendidos.
+
+-El sistema debe ofrecer la posibilidad de eliminar o modificar la información de un cliente registrado antes de ser atendido.
+
+-El sistema debe buscar clientes por nombre, número de documento o prioridad, utilizando algoritmos de búsqueda secuencial o binaria (según el tipo de dato).
+
+-El sistema debe ordenar la lista de clientes atendidos según distintos criterios (por nombre, prioridad o tiempo de atención), empleando algoritmos de ordenamiento como Burbuja, Inserción o Selección.
+
+-El sistema debe calcular estadísticas básicas, como el número total de clientes atendidos.
+
+-El sistema debe permitir guardar los datos en una estructura estática (por ejemplo, un arreglo temporal) antes de exportarlos o procesarlos.
+
+-El sistema debe ofrecer un menú interactivo para que el usuario pueda seleccionar las operaciones a realizar.
+
+-El sistema debe permitir eliminar un cliente específico de la cola, en caso de cancelación o salida antes de ser atendido.
+
