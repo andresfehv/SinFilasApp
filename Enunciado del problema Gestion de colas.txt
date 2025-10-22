@@ -1,0 +1,17 @@
+En los lugares donde se ofrece atención a usuarios o clientes, como bancos, hospitales, instituciones gubernamentales o centros de servicio, manejar manualmente las filas de espera es un desafío permanente.
+
+Con el incremento en la cantidad de personas, gestionar el orden de atención, anotar la información y dar prioridad a los casos se convierte en una labor complicada que puede resultar en esperas prolongadas, desorden en el manejo o pérdida de información importante.
+
+Ante esta situación, se manifiesta la necesidad de disponer de un sistema que facilite de manera automática la atención a los clientes, asegurando un proceso fluido y eficaz.
+
+Este proyecto sugiere la creación de un Sistema de Gestión de Fila de Atención que replique el procedimiento de llegada, espera y atención de usuarios. Para conseguirlo, se utilizarán estructuras de datos como:
+
+Colas, para ilustrar el orden de llegada y servicio (modelo FIFO).
+
+Listas, para guardar los datos completos de los clientes atendidos.
+
+Pilas, con el fin de conservar un registro de las atenciones recientes y habilitar la reversión de operaciones si fuese necesario.
+
+Asimismo, se incorporarán algoritmos de clasificación (como Burbuja, Inserción o Selección) para organizar los datos según diferentes parámetros, tales como prioridad, tiempo de espera o nombre del cliente.
+
+Este sistema tiene como objetivo mostrar de manera práctica cómo las estructuras de datos son aplicables a problemas reales, optimizando la gestión de información y fortaleciendo el aprendizaje teórico obtenido en la materia
