@@ -1,9 +1,33 @@
 # SinFilasApp
-La nueva revolución para adquirir tu turno y asistir a tu establecimiento favorito sin filas y sin demoras.
+# 🚀 SinFilasApp - Sistema de Gestión de Filas Inteligente
 
-Integrantes:
-ANDRES FELIPE HERNANDEZ VARELA
-ID: 409269
+[![Java](https://img.shields.io/badge/Java-17%2B-blue)](https://java.com)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-CHRISTOPHER THOMAS PÍNZON TORO
-ID: 408887
+## 📋 Descripción
+Sistema innovador de gestión de filas que elimina las esperas prolongadas mediante el uso eficiente de estructuras de datos y algoritmos de optimización.
+
+## ✨ Características Principales
+- ✅ Gestión inteligente de colas con prioridades
+- ✅ Múltiples estructuras de datos (Cola, Pila, Lista, Árbol BST)
+- ✅ Algoritmos de ordenamiento (Burbuja, Inserción, Selección)
+- ✅ Búsquedas eficientes (Recursiva, Secuencial, Árbol Binario)
+- ✅ Interfaz intuitiva de consola
+- ✅ Reversión de operaciones
+- ✅ Estadísticas en tiempo real
+
+## 🛠️ Tecnologías
+- **Lenguaje**: Java 17+
+- **Estructuras de Datos**: Colas, Pilas, Listas Enlazadas, Árboles Binarios
+- **Algoritmos**: Burbuja, Inserción, Selección, Búsqueda Binaria
+- **Control de Versiones**: Git + GitHub
+
+## 🚀 Instalación y Ejecución
+
+### Prerrequisitos
+- Java JDK 8 o superior
+- Git
+
+### Pasos para ejecutar:
+```bash
+
