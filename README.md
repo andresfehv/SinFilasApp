@@ -1,8 +1,8 @@
 # SinFilasApp
 # 🚀 SinFilasApp - Sistema de Gestión de Filas Inteligente
 
-##Christopher Thomas Pinzón Toro ID: 408887
-##Andrés Felipe Hernández Varela ID: 409269
+#Christopher Thomas Pinzón Toro ID: 408887
+#Andrés Felipe Hernández Varela ID: 409269
 
 [![Java](https://img.shields.io/badge/Java-17%2B-blue)](https://java.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
