@@ -1,0 +1,123 @@
+HU1 – Registro de cliente
+
+Como recepcionista,
+quiero registrar un nuevo cliente con su nombre, número de documento, prioridad y hora de llegada,
+para que el sistema lo agregue automáticamente a la cola en el orden correcto (FIFO).
+
+Criterios de aceptación:
+
+El sistema solicita los datos y valida que no haya campos vacíos.
+
+El cliente se inserta en la cola según el orden de llegada.
+
+El sistema muestra un mensaje de confirmación del registro.
+
+HU2 – Visualización de la cola
+
+Como empleado,
+quiero visualizar la cola actual en tiempo real,
+para conocer el orden exacto de atención de los clientes.
+
+Criterios de aceptación:
+
+La interfaz muestra los clientes en orden FIFO.
+
+Se actualiza automáticamente al agregar o atender clientes.
+
+Si la cola está vacía, muestra un mensaje informativo.
+
+HU3 – Atención de cliente
+
+Como empleado,
+quiero atender al siguiente cliente en la cola,
+para mantener el flujo de atención sin errores.
+
+Criterios de aceptación:
+
+El primer cliente de la cola pasa a la lista de atendidos.
+
+Se elimina automáticamente de la cola.
+
+Se guarda el registro en la pila de historial para permitir una reversión.
+
+HU4 – Eliminación o modificación de cliente
+
+Como recepcionista,
+quiero modificar o eliminar los datos de un cliente registrado antes de ser atendido,
+para mantener la información actualizada en la cola.
+
+Criterios de aceptación:
+
+El sistema permite buscar el cliente por documento o nombre.
+
+Permite editar los datos seleccionados o eliminar el cliente.
+
+Actualiza la cola automáticamente y confirma la acción.
+
+HU5 – Búsqueda de clientes
+
+Como administrador,
+quiero buscar clientes por nombre, documento o prioridad,
+para localizar rápidamente su información.
+
+Criterios de aceptación:
+
+El sistema aplica búsqueda secuencial o binaria según el campo.
+
+Muestra los resultados coincidentes.
+
+Indica claramente si no se encuentra ningún cliente.
+
+HU6 – Ordenamiento de clientes atendidos
+
+Como administrador,
+quiero ordenar la lista de clientes atendidos por nombre, prioridad o tiempo de atención,
+para facilitar la generación de reportes.
+
+Criterios de aceptación:
+
+El usuario puede elegir el criterio y el algoritmo de ordenamiento (Burbuja, Inserción o Selección).
+
+La lista se muestra ordenada correctamente.
+
+Se conserva la integridad de los datos.
+
+HU7 – Estadísticas
+
+Como administrador,
+quiero ver estadísticas básicas,
+para conocer el número total de clientes atendidos y el desempeño del servicio.
+
+Criterios de aceptación:
+
+El sistema calcula automáticamente el total de clientes atendidos.
+
+Permite mostrar otros datos relevantes como promedio de atención o tiempo total.
+
+HU8 – Reversión de atención
+
+Como administrador,
+quiero deshacer la última atención,
+para corregir errores en caso de haber atendido al cliente incorrecto.
+
+Criterios de aceptación:
+
+La reversión se realiza usando la pila de historial.
+
+El cliente regresa a la cola de espera.
+
+Se muestra un mensaje confirmando la reversión exitosa.
+
+HU9 – Eliminación por cancelación
+
+Como recepcionista,
+quiero eliminar un cliente específico que haya cancelado o se haya retirado,
+para mantener la cola limpia y actualizada.
+
+Criterios de aceptación:
+
+El sistema permite seleccionar al cliente por documento o nombre.
+
+Lo elimina de la cola y actualiza la lista.
+
+Confirma la eliminación con un mensaje.
