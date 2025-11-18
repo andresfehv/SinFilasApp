@@ -32,6 +32,5 @@ Sistema innovador de gestión de filas que elimina las esperas prolongadas media
 - Java JDK 8 o superior
 - Git
 
-### Pasos para ejecutar:
-```bash
+
 
